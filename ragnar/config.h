@@ -22,7 +22,7 @@ typedef struct {
 
 /* Commands */
 #define TERMINAL_CMD "alacritty &"
-#define WEB_BROWSER_CMD "chromium &"
+#define WEB_BROWSER_CMD "brave &"
 #define APPLICATION_LAUNCHER_CMD "dmenu_run &"
 
 /* Keybindings */
@@ -87,7 +87,7 @@ typedef struct {
 #define BAR_SHOW_VERSION_LABEL true
 
 #define BAR_SIZE 20 // In pixels
-#define BAR_START_MONITOR 1 // Monitor on which the bar is on. (0 is most left)
+#define BAR_START_MONITOR 0 // Monitor on which the bar is on. (0 is most left)
 #define BAR_REFRESH_SPEED 1.0 // In seconds
 #define BAR_COLOR 0x202020
 #define BAR_LABEL_PADDING 100 // In pixels
@@ -131,4 +131,4 @@ static BarButton BarButtons[BAR_BUTTON_COUNT] =
 #define MONITOR_COUNT 1
 static const Monitor Monitors[MONITOR_COUNT] = {(Monitor){.width = 1920, .height = 1080}};
 
-static const uint32_t BarButtonLabelPos[MONITOR_COUNT] = { 1350 };
+static const uint32_t BarButtonLabelPos[MONITOR_COUNT] = { 1450 };
