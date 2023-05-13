@@ -121,9 +121,9 @@ static BarCommand  BarCommands[BAR_SLICES_COUNT] =
 
 static BarButton BarButtons[BAR_BUTTON_COUNT] =
 {
-    (BarButton){.cmd = APPLICATION_LAUNCHER_CMD, .icon = "Search"},
-    (BarButton){.cmd = TERMINAL_CMD, .icon = "Terminal"},
-    (BarButton){.cmd = WEB_BROWSER_CMD, .icon = "Browser"},
+    (BarButton){.cmd = APPLICATION_LAUNCHER_CMD, .icon = ""},
+    (BarButton){.cmd = TERMINAL_CMD, .icon = ""},
+    (BarButton){.cmd = WEB_BROWSER_CMD, .icon = ""},
 };
 
 /* Monitors */
